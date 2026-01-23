@@ -91,6 +91,7 @@ public class JournalEntryController {
                 JournalEntry old = journalEntry.get();
                 old.setTittle(newEntry.getTittle() != null && !newEntry.getTittle().isEmpty() ? newEntry.getTittle():old.getTittle());
                 old.setContent(newEntry.getContent() != null && !newEntry.getContent().isEmpty() ? newEntry.getContent():old.getContent());
+                old.setSentiment(newEntry.getSentiment() != null ? newEntry.getSentiment():old.getSentiment());
                 journalEntryService.saveEntry(old);
                 return new ResponseEntity<>(old , HttpStatus.OK);
             }
