@@ -1,8 +1,8 @@
-**Journal App - Scalable Backend Ecosystem** :-
+****Journal App - Scalable Backend Ecosystem** :-**
 
 A production-ready Spring Boot backend for personal journaling, featuring a distributed architecture, automated sentiment analysis, and secure authentication.
 
-**🚀 Key Technical Features** :-
+****🚀 Key Technical Features** :-**
 
 Security & Auth: Implemented Spring Security with JWT for stateless authentication and Google OAuth2 for seamless social login.
 
@@ -16,7 +16,7 @@ Automated Workflows: Configured a User Scheduler and Email Service for weekly se
 
 Reliability: Included a comprehensive test suite (JUnit & Mockito) covering services, repositories, and scheduling logic.
 
-**🛠 Tech Stack** :- 
+**🛠 Tech Stack :- **
 
 Language: Java 17+
 
@@ -30,7 +30,7 @@ Database: MongoDB
 
 Tools: Maven, Lombok, Swagger UI (OpenAPI), Git
 
-**📂 Architecture Overview** :-
+****📂 Architecture Overview** :-**
 
 The project follows a clean Controller-Service-Repository pattern:
 
@@ -42,7 +42,7 @@ filter/: JWT filtering for secure request interception.
 
 scheduler/: Cron-based jobs for automated email dispatches.
 
-**🔧 How to Run** :-
+****🔧 How to Run** :-**
 
 Clone the repo: git clone https://github.com/ArjunDahiya-code/Journal-App.git
 
@@ -51,3 +51,11 @@ Setup Environment: Add your MongoDB URI, Redis credentials, and Google Client ID
 Build & Run: ```bash
 mvn clean install
 mvn spring-boot:run
+
+**API Documentation :-**
+<img width="1900" height="906" alt="image" src="https://github.com/user-attachments/assets/88fd1c36-edd6-4ea3-ab69-e42c6bcc1d5f" />
+<img width="1897" height="823" alt="image" src="https://github.com/user-attachments/assets/e2fb745b-2b4f-4c1e-b958-5831abd3faca" />
+<img width="1892" height="662" alt="image" src="https://github.com/user-attachments/assets/64386159-9515-4d7b-9e61-add9d7cf8872" />
+
+
+
